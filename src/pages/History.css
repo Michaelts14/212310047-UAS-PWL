@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background: url('iStock-459168971.web') no-repeat center center fixed;
+}
+
+.history-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.history-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.no-bookings {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.booking-table th, .booking-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.booking-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.booking-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.booking-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}

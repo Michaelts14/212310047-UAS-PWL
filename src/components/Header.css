@@ -1,0 +1,12 @@
+.header {
+    background-color: #333;
+    color: #080707;
+    padding: 10px;
+    text-align: center; /* Pusatkan teks dalam header */
+  }
+  
+  .store-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

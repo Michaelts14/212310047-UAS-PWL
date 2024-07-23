@@ -1,0 +1,91 @@
+/* App.css */
+
+/* Gaya umum untuk seluruh aplikasi */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: #0c0b0b;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #141111;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Penyesuaian khusus untuk halaman Home */
+.home-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #050505;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.calendar {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.calendar-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-time {
+  margin-bottom: 20px;
+}
+
+.current-time h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.current-time p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.events {
+  margin-top: 20px;
+}
+
+.event {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.event p {
+  margin: 5px 0;
+}

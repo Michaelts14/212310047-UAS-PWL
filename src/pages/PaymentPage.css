@@ -1,0 +1,90 @@
+/* Container style */
+.payment-container {
+    max-width: 600px; /* Lebar maksimum container */
+    margin: 50px auto; /* Margin atas bawah dan kiri kanan otomatis */
+    padding: 30px; /* Padding di dalam container */
+    border: 1px solid #ccc; /* Border warna abu-abu */
+    border-radius: 8px; /* Sudut border melengkung */
+    background-color: rgb(241, 238, 238); /* Warna background putih */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan pada container */
+    font-family: Arial, sans-serif; /* Font untuk seluruh container */
+    text-align: center; /* Rata tengah */
+}
+
+/* Header style */
+.payment-container h1 {
+    font-size: 28px; /* Ukuran font */
+    margin-bottom: 20px; /* Margin bawah */
+    color: #333; /* Warna teks */
+}
+
+/* Subtitle style */
+.payment-container p {
+    font-size: 18px; /* Ukuran font */
+    margin-bottom: 20px; /* Margin bawah */
+    color: #666; /* Warna teks */
+}
+
+/* Section title style */
+.payment-container h2 {
+    font-size: 24px; /* Ukuran font */
+    margin-bottom: 15px; /* Margin bawah */
+    color: #444; /* Warna teks */
+}
+
+/* List style */
+.payment-container ul {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding */
+}
+
+.payment-container ul li {
+    font-size: 18px; /* Ukuran font */
+    margin-bottom: 10px; /* Margin bawah */
+    color: #555; /* Warna teks */
+}
+
+/* Button container style */
+.payment-container .button-container {
+    margin-top: 30px; /* Margin atas */
+}
+
+/* Button style */
+.payment-container button {
+    padding: 12px 25px; /* Padding dalam tombol */
+    font-size: 16px; /* Ukuran font */
+    cursor: pointer; /* Cursor pointer */
+    background-color: #007bff; /* Warna background biru */
+    color: #fff; /* Warna teks putih */
+    border: none; /* Menghilangkan border */
+    border-radius: 4px; /* Sudut melengkung */
+    transition: background-color 0.3s ease; /* Transisi untuk efek hover */
+}
+
+.payment-container button:hover {
+    background-color: #0056b3; /* Warna background saat hover */
+}
+
+/* Card style */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%; /* Sesuaikan lebar card */
+    border-radius: 8px; /* Sudut melengkung pada card */
+    overflow: hidden; /* Menghilangkan overflow */
+    margin-top: 20px; /* Margin atas pada card */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .container {
+    padding: 16px;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
